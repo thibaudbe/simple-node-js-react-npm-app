@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web:
-    container_name: simple-node-js-react-npm-app
+    container_name: simple-app
     build: .
     # command: npm start
     volumes:
