@@ -4,7 +4,7 @@ services:
   web:
     container_name: simple-node-js-react-npm-app
     build: .
-    command: npm start
+    # command: npm start
     volumes:
       - .:/app/
       # - ./scripts/nginx/:/etc/nginx/vhost.d/
